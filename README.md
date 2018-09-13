@@ -1,4 +1,4 @@
-# Differentiate_by_CSV
+# Use Pandas to Classification what Data we Want
 
 ## To know how to read the csv data in python ##
 
@@ -15,7 +15,9 @@ import os
 >>### Start to read csv ###
 
 ```python
-df = pd.read_csv('imgdb_limb_deid.csv',encoding='big5') 
+csv = 'imgdb_limb_deid.csv' #your data name
+
+df = pd.read_csv( csv ,encoding='big5') 
 #you can try to print it out to see 
 print(df)
 ```
