@@ -12,8 +12,10 @@ import shutil
 import os
 ```
 
->>### start to read csv ###
+>>### Start to read csv ###
 
 ```python
 df = pd.read_csv('imgdb_limb_deid.csv',encoding='big5') 
+#you can try to print it out to see 
+print(df)
 ```
