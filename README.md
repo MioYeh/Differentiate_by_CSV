@@ -4,7 +4,13 @@
 
 >>#### Study use Python Pandas ####
 ```python
+#this project will use 
 import pandas as pd
+import numpy as np
+import shutil
+import os
+```
+```python
 db =['ankle','elbow','foot','knee','wrist']
 data = db[i]
 turn = ['left','right']
