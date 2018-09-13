@@ -21,3 +21,8 @@ df = pd.read_csv( csv ,encoding='big5')
 #you can try to print it out to see 
 print(df)
 ```
+>>### To Find the keyword in Row, then get in boolean
+
+```python
+df['bol'] = df["急診最後診斷"].str.lower().str.contains("fracture")
+```
