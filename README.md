@@ -1,8 +1,9 @@
 # Differentiate_by_CSV
 
-### To know how to read the csv data in python ###
+## To know how to read the csv data in python ##
 
->>#### Study use Python Pandas ####
+>>### Study use Python Pandas ###
+
 ```python
 #this project will use 
 import pandas as pd
@@ -10,14 +11,9 @@ import numpy as np
 import shutil
 import os
 ```
+
+>>### start to read csv ###
+
 ```python
-db =['ankle','elbow','foot','knee','wrist']
-data = db[i]
-turn = ['left','right']
-LR = turn[t]
-path = "/Users/mio/Documents/YM_ciflab/Image/Xray/"+LR+"_"+data+"_deid/" #this is where you put your data
-count = 0
-for fn in os.listdir(path):  #to check how many folders under
-        count = count+1
 df = pd.read_csv('imgdb_limb_deid.csv',encoding='big5') 
 ```
