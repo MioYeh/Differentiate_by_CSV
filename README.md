@@ -26,3 +26,7 @@ print(df)
 ```python
 df['bol'] = df["急診最後診斷"].str.lower().str.contains("fracture")
 ```
+>>### Rewrite the row
+```python
+df.loc[(df['label'] == str(db[x])) & (df['bol'] == True) , ['imageID','bol','年齡','急診最後診斷']]
+```
